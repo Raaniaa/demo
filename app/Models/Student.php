@@ -11,8 +11,5 @@ class Student extends Model
 	  protected $fillable = [
         'Name','Birth_Date', 'Mobile','Address','ID_Number',
     ];
-    protected $hidden = [
-        'created_at', 'updated_at',
-    ];
 
 }
