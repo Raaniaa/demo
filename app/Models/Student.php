@@ -12,4 +12,8 @@ class Student extends Model
         'Name','Birth_Date', 'Mobile','Address','ID_Number',
     ];
 
+    protected $hidden = [
+        'created_at', 'updated_at',
+    ];
+
 }
